@@ -1,6 +1,6 @@
 # Generative Adapters for Gemma 3
 
-This repository contains training and evaluation code for a multi-task, adapter-based fine-tuning setup around Gemma 3, with optional knowledge distillation (KD) support.
+This repository contains training and evaluation code for a multi-task, adapter-based fine-tuning setup around Gemma 3, with knowledge distillation (KD) support.
 
 ## What this project does
 
@@ -46,15 +46,3 @@ A typical training entry point is:
 ```bash
 python finetuning_gemma3_trainer.py --config configs/gemma3_kd.json
 ```
-
-## Notes
-
-- This project is intended as a research and experimentation codebase.
-- Training performance and exact hyperparameters depend on the hardware, datasets, and model checkpoints used.
-- The code has been cleaned up for readability and maintainability, but it still assumes familiarity with Hugging Face Transformers and PyTorch.
-
-## Recommended next steps
-
-- Add a small test suite for data preprocessing and utility helpers.
-- Document each dataset/task configuration clearly in the repository.
-- Add experiment tracking and checkpoint summaries for easier reproduction.
