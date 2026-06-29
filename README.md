@@ -46,3 +46,7 @@ A typical training entry point is:
 ```bash
 python finetuning_gemma3_trainer.py --config configs/gemma3_kd.json
 ```
+
+## Acknowledgments
+
+This project is built upon [Hyperformer](https://github.com/rabeehk/hyperformer) by Rabeeh Karimi Mahabadi.
